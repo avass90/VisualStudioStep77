@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    h1 {
+        color: red;
+        Background: black;
+    }
+
+</style>
+
+
+    <div class="text-center">
+        <h1 class="display-4">Visual Studio Course Step 77</h1>
+ 
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GzigR99mcuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        <p id="step77">Click the below button to see the step 77 magic</p>
+        <button onclick="myFunction()">Click Me</button>
+
+
+        
+        <script>
+            function myFunction() {
+                document.getElementById("step77").innerHTML = "Here is my Javascript to fulfill the step 77 requirements";
+            }
+        </script>
+
+
+    </div>
